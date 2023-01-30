@@ -2,11 +2,7 @@ import cv2
 import mediapipe as mp
 import time
 
-# buka dokumentasi landmark hand di meadiapipe
-
-# File HandModule from youtube
-
-
+# Landmark = Mediapipe
 class handDetector():
     def __init__(self, mode=False, maxHands=2, detectionCon=0.5, trackCon=0.5):
         self.mode = mode
